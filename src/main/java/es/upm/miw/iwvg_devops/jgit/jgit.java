@@ -49,4 +49,14 @@ public class jgit {
         }
 
     }
+
+    private String localPath, remotePath;
+    private Git git;
+    
+    public void checkout() throws IOException, GitAPIException {
+        git.checkout()
+                .setCreateBranch(true)
+                .setName("Entidades")
+                .call();
+    }
 }
