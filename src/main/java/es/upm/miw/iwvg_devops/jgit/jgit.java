@@ -41,7 +41,7 @@ public class jgit {
 
                 // hacer push al remoto:
                 PushCommand push = git.push();
-                push.setCredentialsProvider(new UsernamePasswordCredentialsProvider("USER", "CONTRA"));
+                push.setCredentialsProvider(new UsernamePasswordCredentialsProvider("fer.boschi@hotmail.com", "nerbamerca007"));
 
                 // podemos agregar mas configuraciones aca si es necesario
                 push.call();
