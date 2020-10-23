@@ -161,7 +161,7 @@ public class CreacionRamas {
 
                         git.checkout()
                                 .setCreateBranch(true)
-                                .setName("SeñorYSeñoraSmith")
+                                .setName("SeniorYSenioraSmith")
                                 .call();
 
                         // agregar al repositorio remoto
